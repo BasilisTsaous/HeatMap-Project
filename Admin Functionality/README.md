@@ -6,4 +6,4 @@ admin.js: Contains javascript events for the admin form. It also provides the He
 
 admin_data.php: It contains the data selection from the database for the fields Latitude(lat), Longitude(longt) and Count and based on the options for Year, Month, Day, Hour, Activity from the admin form, the coordinates of the map are returned.
 
-admin_map_display.php: 5 different selects are made from the database, each time collecting data from different fields and tables, in order to create each of the 5 distributions that will be displayed for the administrator.   
+admin_map_display.php: It contains the data selection from the database, each time collecting data from different fields and tables, in order to create each of the 5 distributions that will be displayed for the administrator.   
