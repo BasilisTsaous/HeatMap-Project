@@ -166,7 +166,7 @@ include("menu.php");
 
 <?php
     function send_mail(){
-		$to = "tsaous@gmail.com ; kara@gmail.com";
+		$to = "tsaous@gmail.com ;
 		$sender= $_POST['contact_name'];
 		$email= $_POST['contact_email'];
 		$text = $_POST['contact_message'];
