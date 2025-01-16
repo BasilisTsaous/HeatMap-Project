@@ -50,7 +50,7 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.php">Εντοπισμός Τοποθεσίας</a>
+      <a class="navbar-brand" href="index.php">HeatMap Location History (2019-2020)</a>
     </div>
     
 	<div class="collapse navbar-collapse" id="myNavbar" style="display:inline-block;">
