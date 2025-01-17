@@ -30,13 +30,13 @@
 								window.location = "user.php";
 						}					
 						else{
-							alert("Λάθος όνομα χρήστη και κωδικός πρόσβασης");
+							alert("Incorrect username and password");
 						}
 					}
 				});
 			}
 			else{
-				alert("Παρακαλώ συμπληρώστε ένα email και κωδικό πρόσβασης");
+				alert("Please enter an email and password");
 			}
 		});
 	});
@@ -56,7 +56,7 @@
 	<div class="collapse navbar-collapse" id="myNavbar" style="display:inline-block;">
 	
 	<form class='navbar-form navbar-right' action="register.php" method = 'post'>
-					<input type='submit' name='register' class="btn btn-default" value='Εγγραφή' id='register' style="margin-left: -25px;">
+					<input type='submit' name='register' class="btn btn-default" value='Register' id='register' style="margin-left: -25px;">
 				</form>
 	
 	
@@ -64,9 +64,9 @@
 					<div class='form-group' >
 						<label style = "color:white;margin:2px 10px">LOGIN </label>
 						<input type='text' class='form-control' placeholder='email' name = 'em' id = 'em'>
-						<input type='password' class='form-control' placeholder='Κωδικός Πρόσβασης' name = 'pwd' id = 'pwd'>
+						<input type='password' class='form-control' placeholder='Password' name = 'pwd' id = 'pwd'>
 					</div>
-						<input type='button' name='submit' class="btn btn-default" value='Σύνδεση' id='submit'>
+						<input type='button' name='submit' class="btn btn-default" value='Login' id='submit'>
 				</form>
 	 
 	
