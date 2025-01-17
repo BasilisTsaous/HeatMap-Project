@@ -79,16 +79,16 @@ $(document).ready(function(){
 				var thead = table.createTHead();
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Ποσοστό εγγραφών ανά είδος δραστηριότητας");
+				var text = document.createTextNode("Percentage of registrations by type of activity");
 				th.appendChild(text);
 				row.appendChild(th);
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Δραστηριότητα");
+				var text = document.createTextNode("Activity");
 				th.appendChild(text);
 				row.appendChild(th);
 				var th = document.createElement("th");
-				var text = document.createTextNode("Ποσοστό");
+				var text = document.createTextNode("Percentage");
 				th.appendChild(text);
 				row.appendChild(th);
 				
@@ -110,20 +110,20 @@ $(document).ready(function(){
 				var thead = table.createTHead();
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Ημέρα της εβδομάδας με τις περισσότερες εγγραφές ανά είδος δραστηριότητας");
+				var text = document.createTextNode("Day of the week with the most registrations by type of activity");
 				th.appendChild(text);
 				row.appendChild(th);
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Ημέρα");
+				var text = document.createTextNode("Day");
 				th.appendChild(text);
 				row.appendChild(th);
 				var th = document.createElement("th");
-				var text = document.createTextNode("Δραστηριότητα");
+				var text = document.createTextNode("Activity");
 				th.appendChild(text);
 				row.appendChild(th);
 				var th = document.createElement("th");
-				var text = document.createTextNode("Αριθμός");
+				var text = document.createTextNode("Number");
 				th.appendChild(text);
 				row.appendChild(th);
 				
@@ -144,7 +144,7 @@ $(document).ready(function(){
 				var thead = table.createTHead();
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Ώρα της ημέρας με τις περισσότερες εγγραφές ανά είδος δραστηριότητας");
+				var text = document.createTextNode("Time of day with the most registrations by type of activity");
 				th.appendChild(text);
 				row.appendChild(th);
 				var row = thead.insertRow();
@@ -153,11 +153,11 @@ $(document).ready(function(){
 				th.appendChild(text);
 				row.appendChild(th);
 				var th = document.createElement("th");
-				var text = document.createTextNode("Δραστηριότητα");
+				var text = document.createTextNode("Activity");
 				th.appendChild(text);
 				row.appendChild(th);
 				var th = document.createElement("th");
-				var text = document.createTextNode("Αριθμός");
+				var text = document.createTextNode("Number");
 				th.appendChild(text);
 				row.appendChild(th);
 				
@@ -183,9 +183,9 @@ $(document).ready(function(){
 			success: function(responseText3){
 				var reply = JSON.parse(responseText3);
 				createTable(reply.year_echo_score);
-				$('#current_month_score').append('Οικολογική Μετακίνηση για τον τρέχων μήνα: '+reply.month_echo_score+"%");
-				$('#info_eggrafis').append('Οι εγγραφές σας ξεκινάνε από '+reply.user_records.start+' έως '+reply.user_records.end);
-				$('#last_uploaded').append('Το τελευταίο σας upload έγινε: '+reply.upload);
+				$('#current_month_score').append('Ecological Mobility for the current month: '+reply.month_echo_score+"%");
+				$('#info_eggrafis').append('Your registrations start from '+reply.user_records.start+' to '+reply.user_records.end);
+				$('#last_uploaded').append('Your last upload was: '+reply.upload);
 			}
 		});
 		
@@ -199,16 +199,16 @@ $(document).ready(function(){
 				var thead = table.createTHead();
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Score Οικολογικής Μετακίνησης Προηγούμενου Έτους");
+				var text = document.createTextNode("Previous Year Green Mobility Score");
 				th.appendChild(text);
 				row.appendChild(th);
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Ημερομηνία");
+				var text = document.createTextNode("Date");
 				th.appendChild(text);
 				row.appendChild(th);
 				var th = document.createElement("th");
-				var text = document.createTextNode("Ποσοστό");
+				var text = document.createTextNode("Percentage");
 				th.appendChild(text);
 				row.appendChild(th);
 			
