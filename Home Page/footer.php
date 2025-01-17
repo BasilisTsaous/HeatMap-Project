@@ -21,22 +21,22 @@
 		<font size="4"> HeatMap Location History (2019-2020)
 			<br>**********************************************************************************************************
 		</font>
-		<br><font size="3">Η εφαρμογή αναπτύχθηκε από</font>
+		<br><font size="3">The app was developed by</font>
 	</p>
 
 	<div id="team">
 		<table>
 			<tr>
 				<th>A/A</th>
-				<th>Επώνυμο</th>
-				<th>Όνομα</th>
-				<th>Τίτλος</th>
+				<th>Lastname</th>
+				<th>Firstname</th>
+				<th>Title</th>
 			</tr>
 			<tr>
 				<td>1</td>
-				<td>Τσαουσόπουλος</td>
-				<td>Βασίλειος</td>
-				<td>Διαχειριστής</td>
+				<td>Tsaous</td>
+				<td>Basilis</td>
+				<td>Administrator</td>
 			</tr>		
 		</table>
 	</div>
