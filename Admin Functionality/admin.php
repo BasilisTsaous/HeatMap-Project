@@ -77,15 +77,15 @@
 	  <table class="table table-bordered" style="width:60%; margin-left:300px;">
 		<thead>
 		  <tr>
-			<th> <h4><b> ΑΠΕΙΚΟΝΙΣΗ ΣΤΟΙΧΕΙΩΝ </h4> </th>
-			<th><b>ΑΠΟ</th>
-			<th><b>ΕΩΣ</th>
+			<th> <h4><b> DEPICTION OF ELEMENTS </h4> </th>
+			<th><b>FROM</th>
+			<th><b>TO</th>
 		  </tr>
 		</thead>
 		
 		<tbody>
 		  <tr>
-			<td><b>ΕΤΟΣ</td>
+			<td><b>YEAR</td>
 			<td> &nbsp; <select id="year_1" name=year_1> 
 				<?php
 				  for ($y=2013;$y<=2019;$y++)
@@ -102,7 +102,7 @@
 		  </tr>
 		  
 		  <tr>
-			<td><b>ΜΗΝΑΣ</td>
+			<td><b>MONTH</td>
 			<td>&nbsp; <select id="month_1" name=month_1>
 				<?php
 				$currentmonth =date('m');  
@@ -125,7 +125,7 @@
 		  </tr>
 		  
 		  <tr>
-			<td><b>ΗΜΕΡΑ</td>
+			<td><b>DAY</td>
 			<td> &nbsp;<select id="day_1" name=day_1>  
 			 <?php
 				$currentday =date('d');  
@@ -150,7 +150,7 @@
 		  </tr>
 		  
 		  <tr>
-			<td><b>ΩΡΑ</td>
+			<td><b>HOUR</td>
 			<td> &nbsp; <select id="hour_1" name=hour_1>
 			<?php
 			 $currenthour =date('H');  
@@ -172,8 +172,8 @@
 		  
 		   <tr rowspan="2">
 			<td>
-			<b>ΔΡΑΣΤΗΡΙΟΤΗΤΑ</b>
-			<p><h8> Διαλέξτε τρόπο(ή τρόπους) μετακίνησης:</h8></p>
+			<b>ACTIVITY</b>
+			<p><h8> Choose a mode(s) of travel:</h8></p>
 			</td>
 			<td colspan="2"> <select id="act" name=act>
 			<?php					 
