@@ -93,7 +93,7 @@
   <table class="table table-bordered" style="width:60%; margin-left:300px;">
     <thead>
       <tr>
-        <th> <h4><b> DATA ANALYSIS </h4> </th>
+        <th> <h4><b> USER MAP ANALYSIS </h4> </th>
         <th><b>FROM</th>
         <th><b>TO</th>
       </tr>
