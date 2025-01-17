@@ -79,7 +79,7 @@ $(document).ready(function(){
 				var thead = table.createTHead();
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Percentage of registrations by type of activity");
+				var text = document.createTextNode("Percentage of records by type of activity");
 				th.appendChild(text);
 				row.appendChild(th);
 				var row = thead.insertRow();
@@ -110,7 +110,7 @@ $(document).ready(function(){
 				var thead = table.createTHead();
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Day of the week with the most registrations by type of activity");
+				var text = document.createTextNode("Day of the week with the most records by type of activity");
 				th.appendChild(text);
 				row.appendChild(th);
 				var row = thead.insertRow();
@@ -144,7 +144,7 @@ $(document).ready(function(){
 				var thead = table.createTHead();
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Time of day with the most registrations by type of activity");
+				var text = document.createTextNode("Time of day with the most records by type of activity");
 				th.appendChild(text);
 				row.appendChild(th);
 				var row = thead.insertRow();
@@ -184,7 +184,7 @@ $(document).ready(function(){
 				var reply = JSON.parse(responseText3);
 				createTable(reply.year_echo_score);
 				$('#current_month_score').append('Ecological Mobility for the current month: '+reply.month_echo_score+"%");
-				$('#info_eggrafis').append('Your registrations start from '+reply.user_records.start+' to '+reply.user_records.end);
+				$('#info_eggrafis').append('Your records start from '+reply.user_records.start+' to '+reply.user_records.end);
 				$('#last_uploaded').append('Your last upload was: '+reply.upload);
 			}
 		});
