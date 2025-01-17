@@ -121,7 +121,7 @@ function createTable3(data) {
   var thead = table.createTHead();
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Distribution of the number of registrations per month");
+  var text = document.createTextNode("Distribution of the number of records per month");
   th.appendChild(text);
   row.appendChild(th);
   var row = thead.insertRow();
@@ -154,7 +154,7 @@ function createTable4(data) {
   var row = thead.insertRow();
   var th = document.createElement("th");
   var text = document.createTextNode(
-    "Distribution of the number of registrations by day of the week"
+    "Distribution of the number of records by day of the week"
   );
   th.appendChild(text);
   row.appendChild(th);
@@ -187,7 +187,7 @@ function createTable5(data) {
   var thead = table.createTHead();
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Distribution of the number of registrations per hour");
+  var text = document.createTextNode("Distribution of the number of records per hour");
   th.appendChild(text);
   row.appendChild(th);
   var row = thead.insertRow();
@@ -219,7 +219,7 @@ function createTable6(data) {
   var thead = table.createTHead();
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Distribution of the number of registrations per year");
+  var text = document.createTextNode("Distribution of the number of records per year");
   th.appendChild(text);
   row.appendChild(th);
   var row = thead.insertRow();
