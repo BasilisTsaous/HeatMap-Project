@@ -1,4 +1,5 @@
 The Admin Functionality directory contains the code files that provide the admin with every available task.
+The administrator can gain the unique access to each user's Location Data History and analyze them acccordingly based on the Hour,Day,Month,Year and Activities, in order to use and understand in a better way, the HeatMap data results.
 
 menu_admin.php: Contains the form for the admin menu which is used in admin.php. It also contains in its navigation bar, the two main functions of the administrator, "Admin Map Display" and "DataBase Display".
 
