@@ -12,7 +12,7 @@ include("connect.php");
 		$month_2 = $_POST["month_2"];
 		
 
-//Pososto ana typo drastiriotitas
+//Percentage per activity type
    /* $query = "SELECT COUNT(*) AS visited
 				  FROM activity 
 				  INNER JOIN area ON activity.area_id = area.id 
@@ -54,7 +54,7 @@ include("connect.php");
 	} */
 
 
-//Hmera me perissoteres eggrafes ana typo drastiriotitas
+//Day with the most records per type of activity
   	$query = "CREATE OR REPLACE VIEW view_1 AS
 	          SELECT DAYNAME(timestamp) AS day, type, COUNT(*) AS visited
 			  FROM activity 
@@ -77,7 +77,7 @@ include("connect.php");
 	}	
 
 
-//Wra hmeras me perissoteres eggrafes ana typo drastiriotitas
+//Hour of the dat with the most records per type of activity
     $query = "CREATE OR REPLACE VIEW view_2 AS
 	          SELECT HOUR(timestamp) AS hour, type, COUNT(*) AS visited
 			  FROM activity 
