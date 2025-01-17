@@ -12,4 +12,7 @@ The software used during the development of this web application was :
 
 -- WampServer64 (3.1.9) , which is a Windows software stack that provides a local server environment for web development, combining MySQL/MariaDB (database) and various scripting languages such as PHP
 
--- phpMyAdmin ,  which is a web-based tool for managing these MySQL/MariaDB databases, allowing the developer to create, modify, and administer databases through an intuitive graphical interface
+-- phpMyAdmin , which is a web-based tool for managing these MySQL/MariaDB databases, allowing the developer to create, modify, and administer databases through an intuitive graphical interface
+
+![HeatMap](https://github.com/user-attachments/assets/59d72efa-cbc3-45bc-b218-bbb0e3c0a158)
+
