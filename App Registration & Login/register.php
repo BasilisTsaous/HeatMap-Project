@@ -95,13 +95,13 @@ include("header.php");
 								window.location = "user.php";
 							}					
 							else{
-								alert("Λάθος στοιχεία ή ο χρήστης υπάρχει ήδη");
+								alert("Incorrect information or user already exists");
 							}
 						}
 					});
 				}
 				else{
-					alert("Παρακαλώ συμπληρώστε το επιλεγμένο στοιχείο της φόρμας");
+					alert("Please fill in the selected element of the form");
 				}
 			});
 	});    	
@@ -111,8 +111,8 @@ include("header.php");
 <div class="container">
   <form action="">
   <hr>
-    <img src="images/register.png" style="width:100px; height:100px; margin-top:-40px;"><h1>Φόρμα Εγγραφής Χρήστη</h1>
-    <p>Παρακαλώ συμπληρώστε την παρακάτω φόρμα για τη δημιουργία λογαριασμού .</p>
+    <img src="images/register.png" style="width:100px; height:100px; margin-top:-40px;"><h1>User Registration Form</h1>
+    <p>Please fill out the form below to create an account</p>
     <hr>
 
     <label for="firstname"><b>Firstname</b></label>
