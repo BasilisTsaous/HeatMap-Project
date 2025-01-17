@@ -55,16 +55,16 @@ function createTable1(data) {
   var thead = table.createTHead();
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Κατανομή των δραστηριοτήτων των χρηστών");
+  var text = document.createTextNode("Distribution of user activities");
   th.appendChild(text);
   row.appendChild(th);
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Δραστηριότητα");
+  var text = document.createTextNode("Activity");
   th.appendChild(text);
   row.appendChild(th);
   var th = document.createElement("th");
-  var text = document.createTextNode("Ποσοστό");
+  var text = document.createTextNode("Percentage");
   th.appendChild(text);
   row.appendChild(th);
 
@@ -88,17 +88,17 @@ function createTable2(data) {
   var row = thead.insertRow();
   var th = document.createElement("th");
   var text = document.createTextNode(
-    "Κατανομή του πλήθους εγγραφών ανά χρήστη"
+    "Distribution of the number of records per user"
   );
   th.appendChild(text);
   row.appendChild(th);
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Χρήστης");
+  var text = document.createTextNode("User");
   th.appendChild(text);
   row.appendChild(th);
   var th = document.createElement("th");
-  var text = document.createTextNode("Ποσοστό");
+  var text = document.createTextNode("Percentage");
   th.appendChild(text);
   row.appendChild(th);
 
@@ -121,16 +121,16 @@ function createTable3(data) {
   var thead = table.createTHead();
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Κατανομή του πλήθους εγγραφών ανά μήνα");
+  var text = document.createTextNode("Distribution of the number of registrations per month");
   th.appendChild(text);
   row.appendChild(th);
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Μήνας");
+  var text = document.createTextNode("Month");
   th.appendChild(text);
   row.appendChild(th);
   var th = document.createElement("th");
-  var text = document.createTextNode("Ποσοστό");
+  var text = document.createTextNode("Percentage");
   th.appendChild(text);
   row.appendChild(th);
 
@@ -154,17 +154,17 @@ function createTable4(data) {
   var row = thead.insertRow();
   var th = document.createElement("th");
   var text = document.createTextNode(
-    "Κατανομή του πλήθους εγγραφών ανά ημέρα της εβδομάδας"
+    "Distribution of the number of registrations by day of the week"
   );
   th.appendChild(text);
   row.appendChild(th);
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Ημέρα");
+  var text = document.createTextNode("Day");
   th.appendChild(text);
   row.appendChild(th);
   var th = document.createElement("th");
-  var text = document.createTextNode("Ποσοστό");
+  var text = document.createTextNode("Percentage");
   th.appendChild(text);
   row.appendChild(th);
 
@@ -187,16 +187,16 @@ function createTable5(data) {
   var thead = table.createTHead();
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Κατανομή του πλήθους εγγραφών ανά ώρα");
+  var text = document.createTextNode("Distribution of the number of registrations per hour");
   th.appendChild(text);
   row.appendChild(th);
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Ώρα");
+  var text = document.createTextNode("Hour");
   th.appendChild(text);
   row.appendChild(th);
   var th = document.createElement("th");
-  var text = document.createTextNode("Ποσοστό");
+  var text = document.createTextNode("Percentage");
   th.appendChild(text);
   row.appendChild(th);
 
@@ -219,16 +219,16 @@ function createTable6(data) {
   var thead = table.createTHead();
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Κατανομή του πλήθους εγγραφών ανά έτος");
+  var text = document.createTextNode("Distribution of the number of registrations per year");
   th.appendChild(text);
   row.appendChild(th);
   var row = thead.insertRow();
   var th = document.createElement("th");
-  var text = document.createTextNode("Έτος");
+  var text = document.createTextNode("Year");
   th.appendChild(text);
   row.appendChild(th);
   var th = document.createElement("th");
-  var text = document.createTextNode("Ποσοστό");
+  var text = document.createTextNode("Percentage");
   th.appendChild(text);
   row.appendChild(th);
 
@@ -306,14 +306,14 @@ function exportdata() {
 
 function exportasfile(responseText) {
   if (responseText == 1) {
-    alert("Επιτυχής εξαγωγή αρχείοιυ");
+    alert("Successful file extraction");
   } else {
-    alert("Αποτυχία εξαγωγής αρχείου");
+    alert("File extraction failed");
   }
 }
 
 function deletedata() {
-  var d = confirm("Θέλετε να διαγράψετε όλα τα δεδομένα;");
+  var d = confirm("Do you want to delete all data?");
   if (d == true) {
     const request = $.ajax({
       url: "delete_data.php",
@@ -321,10 +321,10 @@ function deletedata() {
       success: function (response) {
         console.log(response);
         if (response == 111) {
-          alert("Επιτυχής διαγραφή δεδομένων");
+          alert("Data deleted successfully");
           window.location = "admin.php";
         } else {
-          alert("Προσπαθήστε ξανά");
+          alert("Try again");
         }
       },
     });
