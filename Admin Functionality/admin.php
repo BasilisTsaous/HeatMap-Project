@@ -77,7 +77,7 @@
 	  <table class="table table-bordered" style="width:60%; margin-left:300px;">
 		<thead>
 		  <tr>
-			<th> <h4><b> DEPICTION OF ELEMENTS </h4> </th>
+			<th> <h4><b> MAP DISPLAY </h4> </th>
 			<th><b>FROM</th>
 			<th><b>TO</th>
 		  </tr>
