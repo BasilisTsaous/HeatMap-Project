@@ -18,7 +18,7 @@ $result = $conn->query($query);
 $row = $result->fetch_array();
 
 
-//Emfanise to score gia trexwn mhna
+//Score for the current month
 if($row["visited"] != 0){
 	$query = "SELECT COUNT(*) AS visited
 			  FROM activity 
@@ -36,7 +36,7 @@ else{
 }
 
 
-//Emfanise to score gia prohgoymenous mhnes
+//Score for the previous months
 $year_score = array();
 $query = "SELECT COUNT(*) AS visited , month(timestamp) , year(timestamp)
 			  FROM activity 
@@ -67,7 +67,7 @@ while($row = $result->fetch_array()){
 	
 }	
 	
-//Periodos eggrafwn user
+//User records
 $query = "SELECT MIN(timestamp) , MAX(timestamp)
 			 FROM area
 			 INNER JOIN time ON area.time_id = time.id
@@ -78,7 +78,7 @@ $result	= $conn->query($query);
 $row = $result->fetch_array();
 $records[] = array("begin" => date("d-m-Y", strtotime($row["MIN(timestamp)"])), "end" => date("d-m-Y",strtotime($row["MAX(timestamp)"])));
 
-//Teleytaio upload user
+//User last upload
 $query = "SELECT upload 
 			FROM user
 			WHERE id = ".$_SESSION["id"]." 
