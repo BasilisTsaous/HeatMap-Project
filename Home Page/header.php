@@ -25,7 +25,7 @@ function scroll(element){
 
   
   <h1><img src="images/header.png" style="width:180px; height:92px; margin-right:-20px; margin-left:-100px; margin-top:-10px";>HeatMap Location History (2019-2020)</h1>
-  <p>Μια χρήσιμη εφαρμογή crowdsourcing για την εύκολη διαχείριση και την ανάλυση του ιστορικού τοποθεσίας σας </p> 
+  <p>A useful crowdsourcing app to easily manage and analyze your location history </p> 
   
   </body> <br>
 </html>
