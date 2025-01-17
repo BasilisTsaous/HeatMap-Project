@@ -1,3 +1,5 @@
+The User Functionality directory contains the code files that present every task available for the new users.
+
 menu_user.php: Contains the form for the user menu which is used in user.php. It also contains in its navigation bar, the two basic functions of the user, "Element Analysis" and "Element Display". 
   
 user.php: Contains html that loads the user's form, including all its functions. In the navigation bar of the page, by selecting appropriately, you can go to the corresponding function in another part of the page.
