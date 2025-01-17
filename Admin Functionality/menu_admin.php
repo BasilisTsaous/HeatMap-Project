@@ -13,7 +13,7 @@
                   <a class="nav-link" onclick="scroll('map_elements');" href="admin.php#map_elements">Map Elements Display</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" onclick="scroll('dashboard');" href="admin.php#dashboard">Display DataBase </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="nav-link" onclick="scroll('dashboard');" href="admin.php#dashboard">DataBase Display </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </li>
             </ul>
 			
