@@ -1,3 +1,5 @@
+The Admin Functionality directory contains the code files that provide the admin with every possible task.
+
 menu_admin.php: Contains the form for the admin menu which is used in admin.php. It also contains in its navigation bar, the two main functions of the administrator, "Map Elements Display" and "Database Display".
 
 admin.php: Contains html that loads the admin form, including all its functions. In the navigation bar of the page, by selecting appropriately, you can go to the corresponding function in another part of the page. 
