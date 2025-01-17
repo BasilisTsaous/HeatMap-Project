@@ -3,7 +3,7 @@
 session_start();
 include_once("connect.php");
 
-//Diaxwrsimos drastiriotitwn
+//Separate the activities
 	
 $query = "SELECT  COUNT(*) AS visited			
 				FROM activity
