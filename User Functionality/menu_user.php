@@ -10,10 +10,10 @@
 			
 			<ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" onclick="scroll('user_map_elements');" href="user.php#user_map_elements">Display Data</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="nav-link" onclick="scroll('user_map_elements');" href="user.php#user_map_elements">Data Analysis</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" onclick="scroll('user_display_elements');" href="user.php#user_display_elements">Display Elements Στοιχείων</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="nav-link" onclick="scroll('user_display_elements');" href="user.php#user_display_elements">Data Display</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </li>
             </ul>
 			
