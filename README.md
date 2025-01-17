@@ -10,6 +10,6 @@ The general idea behind the development of this app, was that it could be made p
 
 The software used during the development of this web application was : 
 
--- WampServer64 , which is a Windows software stack that provides a local server environment for web development, combining MySQL/MariaDB (database) and various scripting languages such as PHP
+-- WampServer64 (3.1.9) , which is a Windows software stack that provides a local server environment for web development, combining MySQL/MariaDB (database) and various scripting languages such as PHP
 
 -- phpMyAdmin ,  which is a web-based tool for managing these MySQL/MariaDB databases, allowing the developer to create, modify, and administer databases through an intuitive graphical interface
