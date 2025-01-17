@@ -199,7 +199,7 @@ $(document).ready(function(){
 				var thead = table.createTHead();
 				var row = thead.insertRow();
 				var th = document.createElement("th");
-				var text = document.createTextNode("Previous Year Green Mobility Score");
+				var text = document.createTextNode("Previous Year Ecological Mobility Score");
 				th.appendChild(text);
 				row.appendChild(th);
 				var row = thead.insertRow();
