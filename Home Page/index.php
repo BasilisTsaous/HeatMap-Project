@@ -72,21 +72,18 @@ include("menu.php");
 		
 		<div class="container" style="text-align:center; margin-right:-120px;"> 
 		     <p> 
-			     Η υπηρεσία Google Maps χρησιμοποιείται στα κινητά εκατομμυρίων χρηστών για να προσφέρει υπηρεσίες <br>
-				 πλοήγησης και αναζήτησης χωρικής πληροφορίας.Οι ρυθμίσεις του λογαριασμού Google που διατηρεί <br>
-				 κάποιος στο κινητό του επιτρέπουν την ενεργοποίηση της υπηρεσίας Location History,σύμφωνα με την οποία, <br>
-				 η Google αποθηκεύει την τρέχουσα τοποθεσία του χρήστη στο cloud, με σκοπό να μπορεί ο χρήστης μεταξύ <br>
-				 άλλων να βλέπει και το ιστορικό των μετακινήσεών του.<br>
-			     <br>
-				 Τα δεδομένα που προσφέρει αυτή η υπηρεσία,έχουν ιδιαίτερη αξία τόσο για τον ίδιο το χρήστη όσο και για<br>
-				 την ευρύτερη κοινωνία.Στα πλαίσια της εφαρμογής μας,κάθε χρήστης θα μπορεί να συνεισφέρει εθελοντικά <br>
-				 τα δεδομένα του σε ένα κοινό αποθετήριο μιας έξυπνης πόλης και να λαμβάνει μια ανάλυση που περιγράφει <br>
-				 πόσο φιλικές προς το περιβάλλον είναι οι μετακινήσεις του.<br>
+			     	 The Google Maps service is used on the mobile phones of millions of users to offer navigation and spatial information<br> 
+			         search services. The settings of the Google account that users maintain on their mobiles allow the activation of the<br> 
+			         Location History service, according to which Google saves the user's current location in the cloud, with the aim of<br> 
+			         allowing the user to see, among other things, the history of his movements.<br>
+			         <br>
+				 The data offered by this service have a special value both for the user himself and for the society in general.<br> 
+			         With this application, each user will be able to voluntarily contribute their data to a common "smart city" repository<br> 
+			         and receive an analysis describing how environmentally friendly their commutes are.<br>
 				 <br>
-				 Εμείς ως διαχειριστές μπορούμε να βλέπουμε σε επίπεδο πληθυσμού τις διαδρομές που επιλέγουν να <br>
-				 κάνουν οι χρήστες,έτσι ώστε να μπορέσουμε να σχεδιάσουμε καλύτερα τις αστικές υποδομές,αλλά και τις<br>
-				 περιοχές που συγκεντρώνεται ο πληθυσμός στην πόλη της Πάτρας, ώστε σε περίπτωση έκτακτης ανάγκης να <br>
-				 είναι πιο αποδοτικός ο σχεδιασμός της αποστολής ασθενοφόρων και πυροσβεστικής.<br>
+				 The administrator can analyze the population level the routes that the users choose to take, so that the urban<br> 
+			         infrastructure can be better designed, but also the areas where the population is concentrated in the city of Patras,<br> 
+			         so that in case of emergencies, the planning of the dispatch of ambulances and fire brigades can be more efficient.<br>
 		     </p> 
 			 
 		 </div>
