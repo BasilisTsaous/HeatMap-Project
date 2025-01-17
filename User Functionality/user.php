@@ -36,16 +36,16 @@
 	<div class = "row">
 		<div class = "col-sm-6">
 		    <form class = "form-horizontal" enctype="multipart/form-data">
-				<h2>Εισαγωγή Αρχείου</h2>
+				<h2>Upload File</h2>
 					<div class="form-group">
-					<label class="control-label col-sm-2">Επιλέξτε αρχείο:</label>
+					<label class="control-label col-sm-2">Choose file:</label>
 					    <div class="col-sm-10">
 							<input type="file" class="form-control" id="file" name="file" accept=".json">
 						</div>
 					</div>
 						<div class= "form-group">
 							<div class = "col-sm-offset-2 col-sm-10">
-								<button type = "button" id = "su_btn" name = "su_btn" class="btn btn-primary">Υποβολή</button>
+								<button type = "button" id = "su_btn" name = "su_btn" class="btn btn-primary">Submit</button>
 							</div>
 						</div>
 			</form>
@@ -93,15 +93,15 @@
   <table class="table table-bordered" style="width:60%; margin-left:300px;">
     <thead>
       <tr>
-        <th> <h4><b> ΑΝΑΛΥΣΗ ΣΤΟΙΧΕΙΩΝ </h4> </th>
-        <th><b>ΑΠΟ</th>
-        <th><b>ΕΩΣ</th>
+        <th> <h4><b> DATA ANALYSIS </h4> </th>
+        <th><b>FROM</th>
+        <th><b>TO</th>
       </tr>
     </thead>
 	
     <tbody>
       <tr>
-        <td><b>ΕΤΟΣ</td>
+        <td><b>YEAR</td>
         <td> &nbsp; <select id="year_1" name=year_1> 
 			<?php
 	          for ($y=2013;$y<=2019;$y++)
@@ -118,7 +118,7 @@
 	  </tr>
 	  
       <tr>
-        <td><b>ΜΗΝΑΣ</td>
+        <td><b>MONTH</td>
         <td>&nbsp; <select id="month_1" name=month_1>
             <?php
 	        $currentmonth =date('m');  
