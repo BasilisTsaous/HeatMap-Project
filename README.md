@@ -1,6 +1,6 @@
 # HeatMap-Project
 An online application of a Heat Map generator based on the analysis of a user's Google Maps location history.
-This application, was part of a big project development back in 2019-2020, that took place in the city of Patras,Greece, using the Location History files from the Google accounts of the city's university post-graduate students. 
+This application, was part of a big project development back in 2019-2020, that took place in the city of Patras,Greece, using the Location History files from the Google accounts of the city's university undergraduate students. 
 
 The Google Maps service is used on the mobile phones of the users to offer navigation and spatial information search services. The settings of the Google account that they maintain on their mobiles allow the activation of the Location History service, according to which Google saves the user's current location in the cloud, with the aim of allowing the user to see, among other things, the history of their movements.
 
